@@ -7,9 +7,9 @@
 <!-- italics -->
 * *Clone the repository from github*
 ```
-git clone https://github.com/MADHAMHARINATH/sample-kind-k8s-script.git
+git clone https://github.com/DhamodharReddy/team-repo.git
 ```
 * *change the directory and give full permissions to owner and execute the script of installation of kind-k8s-cluster with 3 nodes (1 master & 2 worker)*
 ```
-cd sample-kind-k8s-script/ && chmod 755 sc1.sh && ./sc1.sh
+cd team-repo/sample-kind-k8s-cluster && chmod 755 sc1.sh && ./sc1.sh
 ```
