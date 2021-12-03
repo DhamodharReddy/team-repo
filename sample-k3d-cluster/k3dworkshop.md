@@ -4,7 +4,7 @@
 * Then execute the following
 ## **Clone the repository**
 ```
-git clone https://github.com/DhamodharReddy/newrepo.git && ls -ltr
+git clone https://github.com/DhamodharReddy/team-repo.git && ls -ltr
 ```
 ## **Change directory & Creating 3Node cluster**
 ```
