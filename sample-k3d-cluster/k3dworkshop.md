@@ -8,5 +8,5 @@ git clone https://github.com/DhamodharReddy/team-repo.git && ls -ltr
 ```
 ## **Change directory & Creating 3Node cluster**
 ```
-cd sample-k3d-cluster && sudo ./k3dscript.sh
+cd team-repo && sudo ./k3dscript.sh
 ```
