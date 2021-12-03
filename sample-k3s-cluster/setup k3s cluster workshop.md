@@ -1,22 +1,24 @@
-prerequisite: cloud account , Two ubuntu servers 
+## **Prerequisites :**
+- Two ubuntu servers 
 
+## **Setup k3s cluster**
 <p> Install k3s using below command on 1st vm </p>
 
 ```
 curl -sfL https://get.k3s.io | sh -
 ```
 
-<p> copy the accesskey token </p>
+<p> Copy the accesskey token from below command </p>
 
 ```
 cat /var/lib/rancher/k3s/server/node-token
 ```
-<p>login to another vm manually and excute below command paste the accesskey and server ip</p>
+<p>Login to another VM manually and excute below command & paste the server IP and accesskey </p>
 
 ```
-curl -sfL https://get.k3s.io | K3S_URL=https://myserver:6443 K3S_TOKEN=XXX sh -
+curl -sfL https://get.k3s.io | K3S_URL=https://<server-IP>:6443 K3S_TOKEN=<Access-key> sh -
 ```
-<p> For output follow command in master node</P>
+<p> Paste this command in master node to get nodes </P>
 
 ```
 sudo k3s kubectl get nodes
