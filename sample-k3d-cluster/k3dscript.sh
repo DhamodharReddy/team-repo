@@ -7,7 +7,7 @@ sudo apt install docker-ce -y
 echo "checking docker version"
 sudo docker --version
 sleep 5
-echo "Downloading the kubectl latest release with this command"
+echo "Downloading the kubectl v1.20.0 release with this command"
 sudo curl -LO https://dl.k8s.io/release/v1.20.0/bin/linux/amd64/kubectl
 echo "Installing kubectl"
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
